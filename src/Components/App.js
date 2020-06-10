@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {Route } from 'react-router-dom';
 import './App.css';
-import Index from './Components/index/index'
-import Navbar from './Components/Navbar/index'
-import Contact from './Components/Contact/index'
+import Index from './index/index'
+import Navbar from './Navbar/index'
+import Contact from './Contact/index'
 
 class App extends Component {
   render(){
