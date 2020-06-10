@@ -25,10 +25,20 @@ export const UlList =styled.ul `
     float: left;
     list-style: none;
     padding: 0;
+    @media (max-width : 991px) {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none
+    }
 `
 
 export const ListItem =styled.li`
     display: inline-block;
+    @media (max-width : 991px) {
+        display: block;
+        text-align: center;
+    }
 `
 
 export const Anchor =styled.a `
@@ -41,15 +51,7 @@ export const Anchor =styled.a `
         color: #eb5424
     }
 `
-export const StyledLink = styled(Link)`
-     display: block;
-    color: #222;
-    text-decoration: none;
-    padding: 10px 15px;
-    font-weight: bold;
-    &:hover{
-        color: #eb5424
-    }
-`;
+export const StyledLink = styled(Anchor)
+``;
 
 
