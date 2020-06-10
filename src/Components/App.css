@@ -1,4 +1,20 @@
-.container{
-    margin: auto;
-    width: 85%;
+* , *:after , *:before {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: lucida sans ;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.margin-bottom {
+    margin-bottom: 20px
+}
+
+
+/* NavBar */
