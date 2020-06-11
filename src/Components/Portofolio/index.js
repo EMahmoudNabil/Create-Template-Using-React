@@ -19,10 +19,10 @@ class Portofolio extends Component{
         const PortofolioImages = Portofolio.map((ImgItem) => {
             return(
            
-                <div  class="box" key={ImgItem.id}>
+                <div  className="box" key={ImgItem.id}>
                     <div>
                     <img src={ImgItem.image} alt="" />
-                    <p class="overlay">
+                    <p className="overlay">
                         <span>
                             Show Image
                             {console.log(ImgItem.image)}
@@ -37,14 +37,14 @@ class Portofolio extends Component{
             )
         })
         return(
-           <div class="portfolio">
-            <h2 class="portfolio-title"><span>My</span> Portfolio</h2>
-            <ul class="portfolio-list">
-                <li class="portfolio-item active">All</li>
-                <li class="portfolio-item">HTML</li>
-                <li class="portfolio-item">Photoshop</li>
-                <li class="portfolio-item">Wordpress</li>
-                <li class="portfolio-item">Mobile</li>
+           <div className="portfolio">
+            <h2 className="portfolio-title"><span>My</span> Portfolio</h2>
+            <ul className="portfolio-list">
+                <li className="portfolio-item active">All</li>
+                <li className="portfolio-item">HTML</li>
+                <li className="portfolio-item">Photoshop</li>
+                <li className="portfolio-item">Wordpress</li>
+                <li className="portfolio-item">Mobile</li>
             </ul>
 
             {PortofolioImages}

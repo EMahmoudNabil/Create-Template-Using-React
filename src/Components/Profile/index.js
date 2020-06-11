@@ -16,11 +16,11 @@ class  Profile extends Component {
     const{bar}= this.state;
       const barList = bar.map((barItem) => {
           return(
-            <div class="bar" key={barItem.id}>
-            <span class="title">{barItem.title}</span>
-            <span class="perc">{barItem.parent}</span>
-            <div class="parent">
-                <span class={barItem.sp}></span>
+            <div className="bar" key={barItem.id}>
+            <span className="title">{barItem.title}</span>
+            <span className="perc">{barItem.parent}</span>
+            <div className="parent">
+                <span className={barItem.sp}></span>
             </div>
         </div>
           )
@@ -29,41 +29,41 @@ class  Profile extends Component {
 
 
     return(
-      <div class="profile_skills">
-      <div class="container">
-          <div class="profile">
-              <h2 class="profile-title"><span>My </span>Profile</h2>
-              <ul class="profile-list">
-                  <li class="profile-item">
+      <div className="profile_skills">
+      <div className="container">
+          <div className="profile">
+              <h2 className="profile-title"><span>My </span>Profile</h2>
+              <ul className="profile-list">
+                  <li className="profile-item">
                       <span>Name</span>
                       Mahmoud Nabil
                   </li>
-                  <li class="profile-item">
+                  <li className="profile-item">
                       <span>Birthday</span>
                       12/8/1995
                   </li>
-                  <li class="profile-item">
+                  <li className="profile-item">
                       <span>Address</span>
                       Banha
                   </li>
-                  <li class="profile-item">
+                  <li className="profile-item">
                       <span>Phone</span>
                       (+2011) 4628 5867
                   </li>
-                  <li class="profile-item">
+                  <li className="profile-item">
                       <span>Email</span>
                       e.mahmoudnabil@gmail.com
                   </li>
-                  <li class="profile-item">
+                  <li className="profile-item">
                       <span>Website</span>
-                      <span class="web">www.google.com</span>
+                      <span className="web">www.google.com</span>
                   </li>
               </ul>
           </div>
           
-          <div class="skills">
-              <h2 class="skills-title">Some <span>skills</span></h2>
-              <p class="skills-desc">
+          <div className="skills">
+              <h2 className="skills-title">Some <span>skills</span></h2>
+              <p className="skills-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos praesentium blanditiis esse cupiditate, omnis similique.
               </p>
               {barList}
