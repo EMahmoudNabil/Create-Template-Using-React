@@ -73,6 +73,27 @@
             "title" : "Pin Me on",
             "body" : "Social Pinterest"
         }
+    ] ,
+    "bar" : [
+        {
+            "id": 1,
+            "title" : "Bootstrap",
+            "parent" : "100%" ,
+            "sp"  :"sp1"
+        },
+        {
+            "id": 2,
+            "title" : "CSS3",
+            "parent" : "90%" ,
+            "sp"  :"sp2"
+            
+        },
+        {
+            "id": 3,
+            "title" : "Photoshop",
+            "parent" : "80%" ,
+            "sp"  :"sp3"
+        }
     ] 
 }
     
