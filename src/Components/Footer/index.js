@@ -1,13 +1,11 @@
 import React from 'react';
-
+import './style.css'
 
 const Footer=() => {
   return (
-    <div className="App ">
-      Footer!!!!
-  
-     
-    </div>
+    <div className="footer">
+    <p> copyright &copy; 2020 by ultra profile </p>
+  </div>
   );
 }
 

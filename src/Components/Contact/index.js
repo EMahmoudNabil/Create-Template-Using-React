@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './style.css'
+import Footer from '../Footer'
 
 const Contact=() => {
   return (
-    <div className="drop">
-    <div className="container">
+    <Fragment>   
+      <div className="drop">
+       <div className="container">
         <h2 className="drop-title"><span>Drop </span>Me A line</h2>
         <form action="">
             <div className="form-input">
@@ -15,8 +17,11 @@ const Contact=() => {
             <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
             <input type="submit" value="Send Message"/>
         </form>
-    </div>
-</div>
+      </div>
+  </div>
+<Footer />
+</Fragment>
+ 
   );
 }
 
