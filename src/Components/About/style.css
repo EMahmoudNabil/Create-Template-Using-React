@@ -1,0 +1,55 @@
+.creative {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   background-color: darkgray;
+   background-image: url(/images/Portfolio/portfolio-img2.jpg);
+}
+
+.creative .creative-info {
+    padding-top: 100px;
+    width: 50%;
+    float: right;
+    color: #fff;
+}
+
+.creative .creative-info .info-title {
+    font-weight: bold;
+    font-size: 50px
+}
+
+.creative .creative-info .info-title span {
+    font-weight: normal
+}
+
+.creative .creative-info .info-dir {
+    font-size: 40px;
+    color: #eb5424;
+    margin-bottom: 20px
+}
+
+.creative .creative-info .info-desc {
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 1.8
+}
+
+.creative .creative-info .info-desc a {
+    text-decoration: none
+}
+
+@media (max-width:991px) {
+    .creative {
+        height: auto
+    }
+    .creative .creative-info {
+        width: 100%;
+        padding-top: 10px;
+        float: none
+    }
+    
+    .creative .creative-info .info-dir {
+        font-size: 30px
+    }
+}
