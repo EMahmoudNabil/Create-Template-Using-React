@@ -51,7 +51,16 @@ export const Anchor =styled.a `
         color: #eb5424
     }
 `
-export const StyledLink = styled(Anchor)
-``;
+export const StyledLink = styled(Link)`
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    &:hover{
+        color: #eb5424
+    }
+
+`;
 
 
